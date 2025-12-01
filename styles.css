@@ -66,3 +66,25 @@ li {
 .remove-btn:hover {
     background-color: #d9534f;
 }
+.task-item {
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 4px;
+}
+
+.remove-btn {
+    cursor: pointer;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+.remove-btn:hover {
+    background-color: #d9534f;
+}
